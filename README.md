@@ -4,7 +4,11 @@ This project was developed by **Luis Cláudio**, using **React & Vite** for the 
 
 ## 📝 Project Overview
 
-The **To-Do List** allows users to add, complete, search and delete tasks.
+The **To-Do List** allows users to add, complete, search, and delete tasks. Additionally, I used the following libraries to enhance styling and functionality:
+
+- **react-icons**: For beautiful and intuitive icons.
+- **hex-to-rgba**: To dynamically adjust task colors with transparency.
+- **uuid**: To generate unique IDs for each task.
 
 ---
 
@@ -32,11 +36,12 @@ npm run dev
 ---
 
 ## 📌 Features
-✅ Add new tasks
-✅ Search tasks
-✅ Complete tasks
-✅ Delete tasks
+✅ Add new tasks  
+✅ Search tasks  
+✅ Complete tasks  
+✅ Delete tasks  
 ✅ Fully responsive design  
+✅ Dynamic task styling using colors  
 
 ---
 

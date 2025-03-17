@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { v4 as uuidv4 } from 'uuid';
 import './Form.css'
 
 const Form = ({ toDos, setToDos }) => {
@@ -12,7 +13,7 @@ const Form = ({ toDos, setToDos }) => {
 
     const newTodos = [...toDos, 
       {
-        id: Math.floor(Math.random() * 10000),
+        id: uuidv4(),
         text: value,
         category: category,
         status: false

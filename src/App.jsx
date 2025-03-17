@@ -3,26 +3,25 @@ import './App.css'
 import ToDoList from './components/ToDoList/ToDoList'
 import Form from './components/Form/Form'
 import Search from './components/Filter/Search'
-
-// rafce
+import { v4 as uuidv4 } from 'uuid';
 
 function App() {
 
   const [toDos, setToDos] = useState([
     {
-      id: 1,
+      id: uuidv4(),
       text: 'Regar plantas',
       category: 'Pessoal',
       status: false
     }, 
     {
-      id: 2,
+      id: uuidv4(),
       text: 'Estudar React',
       category: 'Estudos',
       status: false
     }, 
     {
-      id: 3,
+      id: uuidv4(),
       text: 'Fazer relatório',
       category: 'Trabalho',
       status: false
